@@ -24,7 +24,8 @@ class Stack:
     def status(self): 
         if self.is_empty()!=1: 
             for i in range(0,self.top+1): 
-                print(self.items[i]) 
+                print(self.items[i])
+                
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
 stack = Stack(size)
